@@ -1,0 +1,51 @@
+{
+  "prepared_at": "2026-11-14T16:42:29.706235+00:00",
+  "original_lean_sha256": "e56bc72244d99db4668fd5285e8032796f2da291c329d3a6f4c2ce2c55ee8c84",
+  "adaptation": {
+    "source": "Earlier private Erd\u0151s 60 formalization, Erdos60.lean",
+    "source_sha256": "e56bc72244d99db4668fd5285e8032796f2da291c329d3a6f4c2ce2c55ee8c84",
+    "adapted": "Erdos60Proof.lean",
+    "adapted_sha256": "e99ff258b2ad4f1183717ac429d2438fcd06c4ee9d451f568ec395a5d0267cc0",
+    "changes": [
+      "Removed the FormalConjectures and TaskSupport imports.",
+      "Replaced the task-wrapper endpoint with an independently stated JSP interface.",
+      "Updated module documentation. The mathematical proof body is retained."
+    ]
+  },
+  "awards_guideline_commit": "10e0ab6e7503b6db769029d7d68cc4ca42c011d7",
+  "original_problem": "https://www.erdosproblems.com/60",
+  "original_problem_html_sha256": "5c5ca4b4774c9bd2356c12b1508091502da47d32aec3dc0ca73454d3dde4b4da",
+  "third_party_source": {
+    "repository": "https://github.com/roberthuynh/erdos",
+    "checked_commit": "3d4c55e12089be819566ba0958e3cb1310365d69",
+    "files": [
+      {
+        "file": "Polarity.lean",
+        "sha256": "09fd880e4313599829af154d5a62fe4473c6b9da96baa9f858fe1ab5dc7f54a5",
+        "matches_preserved_reference": true
+      },
+      {
+        "file": "PolarityDegree.lean",
+        "sha256": "2a66aa365d4050d2c42814142acac8ba20fc01f29fb962ff413aa9b35d2eb253",
+        "matches_preserved_reference": true
+      },
+      {
+        "file": "PolarityAbsoluteBound.lean",
+        "sha256": "dd5acd21f574df5ceea06251b1015add814f21f7ced80a23f83ae67222a226de",
+        "matches_preserved_reference": true
+      },
+      {
+        "file": "FiniteFieldPolarity.lean",
+        "sha256": "4619c0b79e62696be4e0a3d89a85904110f1c4e56805629c80f47c6be222e034",
+        "matches_preserved_reference": true
+      }
+    ]
+  },
+  "repository_owner": "Ghuffy1",
+  "equal_contributors": [
+    "Ghuffy1",
+    "JENW1N",
+    "H0W4RD-dev",
+    "lkruer"
+  ]
+}
