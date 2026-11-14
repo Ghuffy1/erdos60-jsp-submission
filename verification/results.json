@@ -1,0 +1,203 @@
+{
+  "status": "passed",
+  "proof_commit": "62aa60b23089cbd4729f1fc4cc850620228c9038",
+  "finished_utc": "2026-11-14T17:43:50.455668+00:00",
+  "checks": {
+    "fresh_checkout_without_project_build_artifacts": true,
+    "locked_dependency_source_revisions_verified": true,
+    "outside_read_write_and_network_denied": true,
+    "warning_free_clean_build": true,
+    "all_target_source_type_and_axiom_checks": true,
+    "no_admission_or_kernel_bypass_in_source": true,
+    "separate_process_kernel_replay": true,
+    "independent_statement_comparison_and_fresh_kernel_replay": true,
+    "independent_nanoda_kernel": true,
+    "all_sources_and_dependency_revisions_unchanged": true
+  },
+  "mechanical_status": "standard_axioms_only",
+  "targets": [
+    {
+      "declaration": "JSP79.disproof",
+      "status": "standard_axioms_only",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "JSP79.formalizations_agree",
+      "status": "standard_axioms_only",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "JSP79.arbitrarily_large_failures",
+      "status": "standard_axioms_only",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "StatementAudit.original_problem_false",
+      "status": "standard_axioms_only",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "label": "isolation-negative-controls",
+      "exit_code": 0,
+      "seconds": 1.188,
+      "log_sha256": "b361692f3875b509c18c6a8514dfa2266fa703f88100c335f60b312eb002bec5"
+    },
+    {
+      "label": "lean-version",
+      "exit_code": 0,
+      "seconds": 0.063,
+      "log_sha256": "5be88b373021670232d69d189438b99d996c6b0468262e11a1633fe649509911"
+    },
+    {
+      "label": "lake-version",
+      "exit_code": 0,
+      "seconds": 0.062,
+      "log_sha256": "ad31d5af0d0e3710018a6d4c30e024e34d113ccf23a1951ff131c80bcaf7a316"
+    },
+    {
+      "label": "clean-core-build",
+      "exit_code": 0,
+      "seconds": 236.875,
+      "log_sha256": "3c20143e3d54d835babd0c39c44f0b5c2e4028e275b3821be615a9362b9e1d3d"
+    },
+    {
+      "label": "clean-default-build",
+      "exit_code": 0,
+      "seconds": 57.703,
+      "log_sha256": "dc839ba660e559734bd5eb0ac144aae547f9ceba5710bfce2b07190ac4c5c8a8"
+    },
+    {
+      "label": "full-axiom-audit",
+      "exit_code": 0,
+      "seconds": 20.562,
+      "log_sha256": "1bdbad7e06d9f52c1620703c155592024e65632e157a9ffa08ce279588627216"
+    },
+    {
+      "label": "official-target-audit",
+      "exit_code": 0,
+      "seconds": 182.266,
+      "log_sha256": "2a2e5bb5e81bfe2d01e2056dcc430b061fb20800f5b1764db54bf2c31d9c91a4"
+    },
+    {
+      "label": "export-proof",
+      "exit_code": 0,
+      "seconds": 23.641,
+      "log_sha256": "21aefbfc953f2b41fcf173159b450eaa632b64167a7682ae5d3f9d051d66122b"
+    },
+    {
+      "label": "separate-kernel-replay",
+      "exit_code": 0,
+      "seconds": 56.593,
+      "log_sha256": "b4a5a2119e1d34b46527d63317f417c74261b65eeb93f14026389da2519c2ead"
+    },
+    {
+      "label": "build-independent-challenge",
+      "exit_code": 0,
+      "seconds": 20.906,
+      "log_sha256": "200fa14c955eb93ac1661c0d82e85c5c2156548776afc8779a0f972fe8103d39"
+    },
+    {
+      "label": "export-independent-challenge",
+      "exit_code": 0,
+      "seconds": 11.5,
+      "log_sha256": "3b7a5cafa968d15da65989ebdea5ea0eb47ef2fc5bd305bf6fc0ed07f03822b0"
+    },
+    {
+      "label": "independent-statement-comparator",
+      "exit_code": 0,
+      "seconds": 114.313,
+      "log_sha256": "cc1b8e339bc5003934b7c36c3f5052461d2650783dcd3ef16306d89226f13f08"
+    },
+    {
+      "label": "independent-nanoda-kernel",
+      "exit_code": 0,
+      "seconds": 14.015,
+      "log_sha256": "625f947c46ac084e6f51a5613482f2e9c56ddb864da48860a5ab77b34042d6b6"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "commit": "2842b9871b04862f944c032e34052cb9448ccb71"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "commit": "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "commit": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "commit": "75d936c7af167cc93fac0d31237682fc2204591d"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "commit": "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "commit": "10930f8138f0462dbd744a91fc03a16fae0e046f"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "commit": "95e037bfdc31d3916ac615446847fb01960e2719"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "commit": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+    },
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+    }
+  ],
+  "tracked_proof_revision_sha256": {
+    ".gitignore": "5ded656d896917bd92e303d6e007efb8f2e84430d4299f2b31a29101bcf207e4",
+    "AUTHORS.md": "0a8a98a0386ac21511aca32b6cdcb01f9cd6cd382d976d835111df0d4754b43b",
+    "AxiomAudit.lean": "68fbb2638e9e76874a065a187b6cd394fe3d025bb43145d0b16f69ca75e0b977",
+    "Erdos60Proof.lean": "e99ff258b2ad4f1183717ac429d2438fcd06c4ee9d451f568ec395a5d0267cc0",
+    "JSP79.lean": "9cc480dbf0e39ae08c8beec48613ba643300c97a1cc3ab4edb4eaa0cc44ca79a",
+    "LICENSES/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "OriginalStatement.lean": "7555ce7ae0a74218fa8738900d322a1e5af66d25506dae5ccf6ce4da6765a9fa",
+    "PRIOR_WORK.md": "6c38c35df6f05cec0db37907561ede316654bd5ebe295cb2f242f79cf4057261",
+    "README.md": "a0e944a5ffdcfff1273d416919fe350bb4f14c07c67b0009f7d473ae6d14b549",
+    "SOURCE_PROVENANCE.json": "031268dbc931a6d6df803ab464b888ae2d5f07aafba345353a2010da1285ee18",
+    "STATEMENT.md": "b754b35195d9ec0401890f81b2a5b8dab16642916b2867a2fe9129abfa3f75c6",
+    "StatementAudit.lean": "da2a1334d7ea1e7c50562fe293482b0cc42b4498fe465e2ebb54307adb41770f",
+    "THIRD_PARTY.md": "ca2c870bec4717b40a313325a258ad8acfada02f48a7519116fbd133d61fe3db",
+    "lake-manifest.json": "4535b693ea01986863323578ef65e535306f41a6c7760f5f363f26c6d6ab81ff",
+    "lakefile.toml": "3db66791d46f849a5d66681200dcffa31d35f77da2d94812fb81882a56b48d5e",
+    "lean-toolchain": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
+    "paper/erdos-60-proof.pdf": "55e43cef3ca5e278fc3ce90c654835400b114ee1f3682d3be4577a491df43f74",
+    "paper/erdos-60-proof.tex": "d28622f0dba9cc95a70cf6b9a503c0d6efdea09528a55e22894d411033afef80"
+  }
+}

@@ -33,8 +33,9 @@ dependency revisions.
 
 ```sh
 lake exe cache get
+lake --wfail build Erdos60Proof
 lake --wfail build
-lake build JSP79 StatementAudit
+lake build +JSP79 +StatementAudit
 lake env lean AxiomAudit.lean
 ```
 
@@ -52,15 +53,18 @@ negative resolution. [PRIOR_WORK.md](PRIOR_WORK.md) records the public 2019
 vertex-splitting construction, the 2021 announcement reported by Ning and Zhai,
 and related JSP submissions. First-discovery priority is unresolved.
 
-## Submission status
+## Submission and verification
 
-This repository has been prepared locally for Ghuffy1. Its proposed publication
-location is `https://github.com/Ghuffy1/erdos60-jsp-submission`, on branch `main`.
-Publication and submission require the owner's explicit instruction. The private
-delivery contains the catalog patch and completed PR text, with exact local
-commit identifiers and intended publication links.
+The original repository for this contribution is
+https://github.com/Ghuffy1/erdos60-jsp-submission, on branch `main`.
+Ghuffy1 is the primary submitting account.
 
-The mathematical solution and its formalization are submitted for independent
-review under JSP's complete-solution requirements. Local verification records
-the proof checks and statement correspondence. JSP controls acceptance,
-attribution, priority and award decisions.
+The selected proof revision and the results of its final review appear in
+[verification/report.md](verification/report.md). The report covers the full
+original-problem statement, clean compilation, axiom dependencies, independent
+statement comparison and separate kernel checks. The verification evidence is
+added after the selected proof revision, which remains the version submitted
+for review.
+
+The mathematical solution and formalization are submitted for independent JSP
+review. JSP assesses acceptance, attribution, priority and awards.
